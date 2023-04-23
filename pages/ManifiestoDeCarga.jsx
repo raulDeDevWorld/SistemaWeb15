@@ -27,7 +27,7 @@ function CotizacionTerrestre() {
     const [tarifa, setTarifa] = useState([""])
     const [otrosGastos, setOtrosGastos] = useState([""])
     const [incluye, setIncluye] = useState([])
-    const [excluye, setExcluye] = useState([""])
+    const [excluye, setExcluye] = useState([""]) 
 
 
     console.log(pdfData)
